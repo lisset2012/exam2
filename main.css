@@ -1,0 +1,18 @@
+.circles-container{
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  
+  height: 500px;
+}
+
+.circle1,.circle2{
+    border: 5px solid palevioletred;
+    background-color: goldenrod;
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px; 
+    margin: 0.5em;
+}
